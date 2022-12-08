@@ -19,7 +19,7 @@ def load_lottieurl(url):
     return r.json()
 
 
-profile_img = Image.open("/Users/ty/Desktop/portfolio/images/IMG_1329.jpeg")
+profile_img = Image.open("./images/IMG_1329.jpeg")
 logistics_img = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_vfiyayoi.json")
 
 
