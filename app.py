@@ -61,6 +61,8 @@ with st.container():
         st.header("My Projects")
         st.markdown("[C++ Application](https://github.com/tyler-cossairt/classroster)")
         st.write("A C++ app that outputs data regarding members of a roster array.")
+        st.markdown("[Python Application](https://github.com/tyler-cossairt/portfolio)")
+        st.write("See the Python code that went into building this app.")
     with skills_column:
         st.header("Skills")
         st.write("""
